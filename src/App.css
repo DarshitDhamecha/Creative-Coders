@@ -1,0 +1,14 @@
+.hero-first-bg {
+    background: url('/public/images/decorfurniture.webp');
+    background-size: cover;
+}
+
+.hero-second-bg {
+    background: url('/public/images/mobileweb.webp');
+    background-size: cover;
+}
+
+.hero-third-bg {
+    background: url('/public/images/treeweb.webp');
+    background-size: cover;
+}
