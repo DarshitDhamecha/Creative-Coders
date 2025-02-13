@@ -6,7 +6,7 @@ const Header = () => {
             <div className='bg-[#2E5077] flex items-center justify-between w-[95%] mx-auto max-w-[110rem] ps-3 pe-8 rounded-2xl'>
                 <div>
                     <a href="/">
-                        <img src="/public/images/logo.png" alt="" className='h-[90px]' />
+                        <img src="/images/logo.png" alt="" className='h-[90px]' />
                     </a>
                 </div>
                 <nav>
