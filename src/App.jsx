@@ -6,6 +6,8 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import WhatsApp from './components/WhatsApp'
 import UspSection from './components/UspSection'
+import Introduction from './components/Introduction'
+import ServicesSection from './components/ServicesSection'
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
     <>
       <Header />
       <HeroSection />
+      <Introduction />
       <UspSection />
+      <ServicesSection />
       <WhatsApp />
     </>
   )

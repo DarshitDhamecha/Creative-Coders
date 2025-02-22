@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <header className='w-[100%] pt-3'>
-            <div className='bg-[#2E5077] flex items-center justify-between w-[95%] mx-auto max-w-[110rem] ps-3 pe-8 rounded-2xl'>
+            <div className='bg-d-blue flex items-center justify-between main-section mx-auto ps-3 pe-8 rounded-2xl'>
                 <div>
                     <a href="/">
                         <img src="/images/logo.png" alt="" className='h-[90px]' />
