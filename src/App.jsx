@@ -8,13 +8,15 @@ import WhatsApp from './components/WhatsApp'
 import UspSection from './components/UspSection'
 import Introduction from './components/Introduction'
 import ServicesSection from './components/ServicesSection'
+import Particle from './components/Particle'
 
 function App() {
 
   return (
     <>
       <Header />
-      <HeroSection />
+      <Particle />
+      {/* <HeroSection /> */}
       <Introduction />
       <UspSection />
       <ServicesSection />

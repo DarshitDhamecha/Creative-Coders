@@ -14,20 +14,17 @@ const HeroSection = () => {
                         <div className='hero-first-bg h-[520px] w-[50%] rounded-xl p-3 tx-white'>
                             <div className='bg-l-blue px-5 py-3 w-fit rounded-md'>
                                 <h5 className='font-medium'>Wordpress</h5>
-                                <p>$70</p>
                             </div>
                         </div>
                         <div className='w-[50%] flex-col gap-5 flex'>
                             <div className='hero-second-bg h-[250px] rounded-xl p-3 tx-white'>
                                 <div className='bg-l-blue px-5 py-3 w-fit rounded-md'>
                                     <h5 className='font-medium'>React JS</h5>
-                                    <p>$115</p>
                                 </div>
                             </div>
                             <div className='hero-third-bg h-[250px] rounded-xl p-3 tx-white'>
                                 <div className='bg-l-blue px-5 py-3 w-fit rounded-md'>
                                     <h5 className='font-medium'>Html Template</h5>
-                                    <p>$50</p>
                                 </div>
                             </div>
                         </div>

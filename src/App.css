@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-blue: #2E5077;
     --light-gray: #EEF4F5;
     --light-blue: #2e50777e;
@@ -9,59 +9,59 @@
 }
 
 /* theme background color */
-.bg-d-blue{
+.bg-d-blue {
     background-color: var(--dark-blue);
 }
 
-.bg-l-gray{
+.bg-l-gray {
     background-color: var(--light-gray);
 }
 
-.bg-l-blue{
+.bg-l-blue {
     background-color: var(--light-blue);
 }
 
-.bg-white{
+.bg-white {
     background-color: var(--white);
 }
 
-.bg-gray{
+.bg-gray {
     background-color: var(--gray);
 }
 
-.bg-black{
+.bg-black {
     background-color: var(--black);
 }
 
-.bg-d-gray{
+.bg-d-gray {
     background-color: var(--dark-gray);
 }
 
 /* theme text color */
 
-.tx-d-blue{
+.tx-d-blue {
     color: var(--dark-blue);
 }
 
-.tx-gray{
+.tx-gray {
     color: var(--gray);
 }
 
-.tx-white{
+.tx-white {
     color: var(--white);
 }
 
-.tx-black{
+.tx-black {
     color: var(--black);
 }
 
-.tx-d-gray{
+.tx-d-gray {
     color: var(--dark-gray);
 }
 
 
 /* container */
-.main-section{
+.main-section {
     max-width: 110rem;
     width: 95%;
 }
@@ -80,3 +80,18 @@
     background: url('/public/images/treeweb.webp');
     background-size: cover;
 }
+
+/* first section Particle */
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+/* buttons */
