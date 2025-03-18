@@ -9,6 +9,7 @@ import UspSection from './components/UspSection'
 import Introduction from './components/Introduction'
 import ServicesSection from './components/ServicesSection'
 import Particle from './components/Particle'
+import ProjectsSection from './components/ProjectsSection'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
       {/* <HeroSection /> */}
       <Introduction />
       <UspSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
+      <ProjectsSection />
       <WhatsApp />
     </>
   )
