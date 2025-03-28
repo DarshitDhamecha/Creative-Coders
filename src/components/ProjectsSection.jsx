@@ -8,8 +8,8 @@ const ProjectsSection = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 3500,
     };
 
     const slides = [
@@ -43,7 +43,7 @@ const ProjectsSection = () => {
                     {slides.map((slide) => (
                         <>
                             <div key={slide.id} className='flex items-center justify-center w-[100%] h-[350px]'>
-                                <div class="flex bg-[#EEF4F5] relative rounded-xl w-[100%] gap-4 items-center justify-end py-3 mx-[5px] border-1">
+                                <div class="flex bg-[#EEF4F5] relative rounded-xl w-[100%] gap-4 items-center justify-end py-3 mx-[10px] border-1">
                                     <div class="w-[40%] absolute left-0 border-1 rounded-xl">
                                         <img src={slide.img} class="rounded-xl h-[280px] w-[100%] object-cover " alt="" />
                                     </div>
