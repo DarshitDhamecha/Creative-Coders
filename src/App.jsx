@@ -11,6 +11,7 @@ import ServicesSection from './components/ServicesSection'
 import Particle from './components/Particle'
 import ProjectsSection from './components/ProjectsSection'
 import TechnologySection from './components/TechnologySection'
+import ContactSection from './components/ContactSection'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       {/* <ServicesSection /> */}
       <ProjectsSection />
       <TechnologySection />
+      <ContactSection />
       <WhatsApp />
     </>
   )

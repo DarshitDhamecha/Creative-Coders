@@ -94,4 +94,38 @@
     z-index: 1;
 }
 
-/* buttons */
+.contact-bg {
+    background-image: url('/images/contact-img.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-bg input,
+.contact-bg select,
+.contact-bg textarea{
+    border: 2px solid #fff;
+    outline: none;
+    width: 100%;
+    color: var(--white);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-bg select option{
+    color: var(--black);
+}
+
+.contact-bg input::placeholder,
+.contact-bg textarea::placeholder{
+    color: var(--white);
+}
+
+.contact-bg input[type=submit]{
+    width: unset;
+    background-color: var(--dark-blue);
+    border: 0;
+    cursor: pointer;
+    padding: 10px 40px;
+}
