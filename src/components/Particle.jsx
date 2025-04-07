@@ -65,9 +65,9 @@ export default function Particle() {
                             }}
                         />
                     )}
-                    <div className="content flex flex-col items-center">
-                        <h1 className='text-6xl font-bold leading-18 tx-black w-[60%]'>Exquisite design combined with functionalities</h1>
-                        <p className='text-[22px] tx-black my-8 w-[70%]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <div className="content flex flex-col items-center lg:px-0 px-5">
+                        <h1 className='lg:text-6xl text-4xl font-bold lg:leading-18 tx-black lg:w-[60%]'>Exquisite design combined with functionalities</h1>
+                        <p className='text-[22px] tx-black my-8 lg:w-[70%] w-[100%]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                         <button className='bg-d-blue text-white px-5 py-3 rounded-md cursor-pointer'>Get In Touch</button>
                     </div>
                 </div>

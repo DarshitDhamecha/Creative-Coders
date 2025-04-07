@@ -10,6 +10,24 @@ const ProjectsSection = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3500,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024, // under 1024px (tablet and below)
+                settings: {
+                    slidesToShow: 2,
+                    autoplay: false,
+
+                }
+            },
+            {
+                breakpoint: 767, // under 768px (mobile)
+                settings: {
+                    slidesToShow: 1,
+                    autoplay: false,
+                }
+            }
+        ]
     };
 
     const slides = [
@@ -38,7 +56,7 @@ const ProjectsSection = () => {
     return (
         <>
             <section className='main-section mx-auto mt-10'>
-                <h2 className='text-[60px] font-bold text-center'>Our Projects</h2>
+                <h2 className='lg:text-[60px] text-4xl font-bold text-center'>Our Projects</h2>
                 <Slider {...settings}>
                     {slides.map((slide) => (
                         <>
@@ -48,9 +66,9 @@ const ProjectsSection = () => {
                                         <img src={slide.img} class="rounded-xl h-[280px] w-[100%] object-cover " alt="" />
                                     </div>
                                     <div class="w-[60%] px-4">
-                                        <h2 class="font-bold text-[22px]">{slide.title}</h2>
+                                        <h2 class="font-bold lg:text-[22px] text-[20px]">{slide.title}</h2>
                                         <p class="my-2">{slide.content}</p>
-                                        <button class="bg-[#2E5077] text-white px-5 py-2 rounded-md">View</button>
+                                        <button class="bg-[#2E5077] text-white px-5 py-2 rounded-md md:text-[16px]">View</button>
                                     </div>
                                 </div>
                             </div>

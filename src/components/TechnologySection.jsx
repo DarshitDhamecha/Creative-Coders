@@ -3,8 +3,8 @@ import React from 'react'
 const TechnologySection = () => {
     return (
         <section className='main-section mx-auto mt-10 mb-5'>
-            <h2 className='text-[60px] font-bold text-center'>Technology</h2>
-            <div className='grid grid-cols-3 gap-10 mt-5'>
+            <h2 className='lg:text-[60px] text-4xl font-bold text-center'>Technology</h2>
+            <div className='grid lg:grid-cols-3 lg:gap-10 gap-5 mt-5'>
                 <div className='py-8 px-4 border-[1px] border-[#2E5077] rounded-xl bg-l-gray'>
                     <div className='flex justify-between'>
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 40 48">

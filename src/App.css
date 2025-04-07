@@ -98,11 +98,12 @@
     background-image: url('/images/contact-img.webp');
     background-size: cover;
     background-attachment: fixed;
+    height: 600px;
 }
 
 .contact-bg input,
 .contact-bg select,
-.contact-bg textarea{
+.contact-bg textarea {
     border: 2px solid #fff;
     outline: none;
     width: 100%;
@@ -113,19 +114,32 @@
     margin-bottom: 20px;
 }
 
-.contact-bg select option{
+.contact-bg select option {
     color: var(--black);
 }
 
 .contact-bg input::placeholder,
-.contact-bg textarea::placeholder{
+.contact-bg textarea::placeholder {
     color: var(--white);
 }
 
-.contact-bg input[type=submit]{
+.contact-bg input[type=submit] {
     width: unset;
     background-color: var(--dark-blue);
     border: 0;
     cursor: pointer;
     padding: 10px 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-bg {
+        height: 712px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-bg {
+        height: 738px;
+        /* background-attachment: unset; */
+    }
 }

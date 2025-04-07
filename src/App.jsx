@@ -21,11 +21,11 @@ function App() {
       <Particle />
       {/* <HeroSection /> */}
       <Introduction />
-      <UspSection />
       {/* <ServicesSection /> */}
       <ProjectsSection />
       <TechnologySection />
       <ContactSection />
+      <UspSection />
       <WhatsApp />
     </>
   )

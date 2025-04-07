@@ -4,9 +4,9 @@ import React from 'react'
 const ContactSection = () => {
 
     return (
-        <section className='main-section mx-auto my-28'>
-            <div className='contact-bg h-[600px] w-[100%] rounded-xl relative'>
-                <div className='bg-[#0000006e] p-5 absolute right-36 top-[-50px] w-[600px] rounded-xl'>
+        <section className='main-section mx-auto md:my-28 my-5'>
+            <div className='contact-bg w-[100%] rounded-xl relative'>
+                <div className='bg-[#0000006e] p-5 absolute lg:right-36 right-0 lg:top-[-50px] lg:w-[600px] w-[100%] rounded-xl'>
                     <h2 className='tx-white text-4xl font-semibold text-center'>Let's Connect</h2>
                     <p className='tx-white text-lg text-center mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed obcaecati modi eos dignissimos dolorem fugiat illum ex vero</p>
                     <div className='mt-8'>
