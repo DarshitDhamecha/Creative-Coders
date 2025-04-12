@@ -1,3 +1,9 @@
+*,
+html {
+    scroll-behavior: smooth;
+}
+
+
 :root {
     --dark-blue: #2E5077;
     --light-gray: #EEF4F5;
@@ -129,6 +135,24 @@
     border: 0;
     cursor: pointer;
     padding: 10px 40px;
+}
+
+.mobile-menu.active {
+    animation: zoom 0.9s ease-in-out;
+}
+
+@keyframes zoom {
+    0% {
+        scale: 0;
+    }
+
+    50% {
+        scale: 1.02;
+    }
+
+    100% {
+        scale: 1;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

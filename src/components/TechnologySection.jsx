@@ -2,7 +2,7 @@ import React from 'react'
 
 const TechnologySection = () => {
     return (
-        <section className='main-section mx-auto mt-10 mb-5'>
+        <section className='main-section mx-auto mt-10 mb-5' id='technology'>
             <h2 className='lg:text-[60px] text-4xl font-bold text-center'>Technology</h2>
             <div className='grid lg:grid-cols-3 lg:gap-10 gap-5 mt-5'>
                 <div className='py-8 px-4 border-[1px] border-[#2E5077] rounded-xl bg-l-gray'>

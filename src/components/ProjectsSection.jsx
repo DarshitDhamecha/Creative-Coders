@@ -55,7 +55,7 @@ const ProjectsSection = () => {
     ];
     return (
         <>
-            <section className='main-section mx-auto mt-10'>
+            <section className='main-section mx-auto mt-10' id='projects'>
                 <h2 className='lg:text-[60px] text-4xl font-bold text-center'>Our Projects</h2>
                 <Slider {...settings}>
                     {slides.map((slide) => (
