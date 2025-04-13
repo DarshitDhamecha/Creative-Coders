@@ -48,7 +48,7 @@ const ProjectsSection = () => {
         },
         {
             id: 3,
-            img: "/public/images/restaurantwebsite.jpg",
+            img: "/images/restaurantwebsite.jpg",
             title: "Restaurant Website",
             content: "A user-friendly restaurant website built with React.js & Tailwind CSS, offering an informative experience",
             link: "https://restaurantwebsite-darshit.netlify.app/",

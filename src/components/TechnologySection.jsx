@@ -13,7 +13,7 @@ const TechnologySection = () => {
                         <h2 className='text-5xl font-bold opacity-25 tx-d-blue'>01</h2>
                     </div>
                     <h3 className='text-2xl font-semibold mt-5 mb-3'>Wordpress</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad ratione aut assumenda, nesciunt corporis aperiam reprehenderit beatae maiores maxime </p>
+                    <p>We create dynamic, user-friendly WordPress websites tailored to your needs—offering custom themes, responsive design, and complete e-commerce integration.</p>
                 </div>
                 <div className='py-8 px-4 border-[1px] border-[#2E5077] rounded-xl bg-l-gray'>
                     <div className='flex justify-between'>
@@ -23,7 +23,7 @@ const TechnologySection = () => {
                         <h2 className='text-5xl font-bold opacity-25 tx-d-blue'>02</h2>
                     </div>
                     <h3 className='text-2xl font-semibold mt-5 mb-3'>React JS</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad ratione aut assumenda, nesciunt corporis aperiam reprehenderit beatae maiores maxime </p>
+                    <p>We build fast, interactive, and scalable web applications using React JS—perfect for modern businesses looking for high performance and seamless UI experiences.</p>
                 </div>
                 <div className='py-8 px-4 border-[1px] border-[#2E5077] rounded-xl bg-l-gray'>
                     <div className='flex justify-between'>
@@ -33,7 +33,7 @@ const TechnologySection = () => {
                         <h2 className='text-5xl font-bold opacity-25 tx-d-blue'>03</h2>
                     </div>
                     <h3 className='text-2xl font-semibold mt-5 mb-3'>Html Templates</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad ratione aut assumenda, nesciunt corporis aperiam reprehenderit beatae maiores maxime </p>
+                    <p>We craft clean, responsive websites with HTML, CSS, and JavaScript—delivering elegant, lightweight designs optimized for speed and user engagement.</p>
                 </div>
             </div>
         </section>

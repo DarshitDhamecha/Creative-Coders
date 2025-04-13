@@ -8,7 +8,7 @@ const ContactSection = () => {
             <div className='contact-bg w-[100%] rounded-xl relative'>
                 <div className='bg-[#0000006e] p-5 absolute lg:right-36 right-0 lg:top-[-50px] lg:w-[600px] w-[100%] rounded-xl'>
                     <h2 className='tx-white text-4xl font-semibold text-center'>Let's Connect</h2>
-                    <p className='tx-white text-lg text-center mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed obcaecati modi eos dignissimos dolorem fugiat illum ex vero</p>
+                    <p className='tx-white text-lg text-center mt-3'>Have a project in mind? Let’s build something amazing together—reach out today!</p>
                     <div className='mt-8'>
                         <form className='flex flex-col justify-center items-center' action="https://formspree.io/f/mqapgaka" method='POST'>
                             <input type="text" name='name' placeholder='Name*' required />
