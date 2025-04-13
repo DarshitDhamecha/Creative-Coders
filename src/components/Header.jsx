@@ -14,7 +14,7 @@ const Header = () => {
                 <div className='bg-d-blue flex items-center justify-between main-section mx-auto ps-3 pe-8 rounded-2xl'>
                     <div>
                         <a href="/">
-                            <img src="/images/logo.png" alt="" className='h-[90px]' />
+                            <img src="/images/logo.webp" alt="" height="90" width="90" className='h-[90px]' />
                         </a>
                     </div>
                     <nav className='md:block hidden'>
