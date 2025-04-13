@@ -1,6 +1,5 @@
-import { useState, version } from 'react'
+import { useEffect, useState, version } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
@@ -12,21 +11,39 @@ import Particle from './components/Particle'
 import ProjectsSection from './components/ProjectsSection'
 import TechnologySection from './components/TechnologySection'
 import ContactSection from './components/ContactSection'
+import Loader from './components/Loader'
 
 function App() {
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
-      <Header />
-      <Particle />
-      {/* <HeroSection /> */}
-      <Introduction />
-      {/* <ServicesSection /> */}
-      <ProjectsSection />
-      <TechnologySection />
-      <ContactSection />
-      <UspSection />
-      <WhatsApp />
+      {
+        loading ? (
+          <Loader />
+        ) : (
+          <>
+            <Header />
+            <Particle />
+            <Introduction />
+            <ProjectsSection />
+            <TechnologySection />
+            <ContactSection />
+            <UspSection />
+            <WhatsApp />
+          </>
+        )
+
+      }
     </>
   )
 }
