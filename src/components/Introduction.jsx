@@ -39,7 +39,7 @@ const Introduction = () => {
         <>
             <section className='main-section mt-10 mx-auto'>
                 <div className='text-center'>
-                    <h2 className='lg:text-[60px] text-4xl font-bold'>Who We Are</h2>
+                    <h2 className='lg:text-[60px] text-4xl font-bold border-b-2 border-[#2E5077] w-fit mx-auto'>Who We Are</h2>
                     <p className='text-[18px] tx-d-gray lg:w-[70%] mx-auto mt-2'>We are a passionate web development team crafting modern websites that help businesses stand out online. From clean code to smooth design, we focus on delivering quality and performance.</p>
                 </div>
                 <div className='grid lg:grid-cols-2 gap-5 mt-5 items-center'>

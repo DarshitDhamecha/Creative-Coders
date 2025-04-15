@@ -87,6 +87,10 @@ html {
     background-size: cover;
 }
 
+.box-shadow{
+    box-shadow: 4px 4px 12px -3px black;
+}
+
 /* first section Particle */
 #tsparticles {
     position: absolute;
@@ -117,6 +121,19 @@ html {
     padding: 8px 20px;
     border-radius: 8px;
     font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-bg input.form-control {
+    width: 100% !important;
+    background-color: transparent !important;
+    border: 2px solid #fff;
+    font-size: 20px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    border-radius: 8px !important;
+}
+
+.contact-bg .react-tel-input {
     margin-bottom: 20px;
 }
 
@@ -163,7 +180,7 @@ html {
 
 @media (max-width: 767px) {
     .contact-bg {
-        height: 738px;
-        /* background-attachment: unset; */
+        height: 715px;
+        background-attachment: unset;
     }
 }

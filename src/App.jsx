@@ -35,8 +35,8 @@ function App() {
             <Header />
             <Particle />
             <Introduction />
-            <ProjectsSection />
             <TechnologySection />
+            <ProjectsSection />
             <ContactSection />
             <UspSection />
             <WhatsApp />

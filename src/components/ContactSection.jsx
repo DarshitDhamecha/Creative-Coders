@@ -1,7 +1,11 @@
 import { useForm } from '@formspree/react';
-import React from 'react'
+import React, { useState } from 'react'
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const ContactSection = () => {
+
+    const [phone, setPhone] = useState('');
 
     return (
         <section className='main-section mx-auto md:my-28 my-5' id='contact'>
@@ -13,7 +17,8 @@ const ContactSection = () => {
                         <form className='flex flex-col justify-center items-center' action="https://formspree.io/f/mqapgaka" method='POST'>
                             <input type="text" name='name' placeholder='Name*' required />
                             <input type="email" name='email' placeholder='Email*' required />
-                            <input type="number" name='phone-number' placeholder='Phone Number' />
+                            {/* <input type="number" name='phone-number' placeholder='Phone Number' /> */}
+                            <PhoneInput country={'in'} value={phone} onChange={(phone) => setPhone(phone)} inputProps={{name: 'phone-number', required: true}}/>
                             <select name="services" required>
                                 <option value="" disabled selected>---Select Service*---</option>
                                 <option value="wordpress">Wordpress</option>

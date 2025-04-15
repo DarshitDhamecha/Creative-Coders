@@ -57,14 +57,14 @@ const ProjectsSection = () => {
     return (
         <>
             <section className='main-section mx-auto mt-10' id='projects'>
-                <h2 className='lg:text-[60px] text-4xl font-bold text-center'>Our Projects</h2>
+                <h2 className='lg:text-[60px] text-4xl font-bold text-center border-b-2 border-[#2E5077] w-fit mx-auto'>Our Projects</h2>
                 <Slider {...settings}>
                     {slides.map((slide) => (
                         <>
                             <div key={slide.id} className='flex items-center justify-center w-[100%] h-[350px]'>
-                                <div class="flex bg-[#EEF4F5] relative rounded-xl w-[100%] gap-4 items-center justify-end py-3 mx-[10px] border-1">
+                                <div class="box-shadow flex bg-[#EEF4F5] relative rounded-xl w-[100%] gap-4 items-center justify-end py-3 mx-[10px] border-1">
                                     <div class="w-[40%] absolute left-0 border-1 rounded-xl">
-                                        <img src={slide.img} height="280" width="100%" class="rounded-xl h-[280px] w-[100%] object-cover " alt="" />
+                                        <img src={slide.img} height="280" width="100%" class="box-shadow rounded-xl h-[280px] w-[100%] object-cover " alt="" />
                                     </div>
                                     <div class="w-[60%] px-4">
                                         <h2 class="font-bold lg:text-[22px] text-[18px]">{slide.title}</h2>
