@@ -44,7 +44,7 @@ const ProjectsSection = () => {
             img: "/images/decorfurniture.webp",
             title: "Decore Furniture",
             content: "A sleek, user-friendly furniture store built with WordPress for smooth shopping and full e-commerce features.",
-            link: "http://decorfurniture.rf.gd/",
+            link: "https://decorfurniture.rf.gd/",
         },
         {
             id: 3,
