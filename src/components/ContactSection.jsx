@@ -17,7 +17,6 @@ const ContactSection = () => {
                         <form className='flex flex-col justify-center items-center' action="https://formspree.io/f/mqapgaka" method='POST'>
                             <input type="text" name='name' placeholder='Name*' required />
                             <input type="email" name='email' placeholder='Email*' required />
-                            {/* <input type="number" name='phone-number' placeholder='Phone Number' /> */}
                             <PhoneInput country={'in'} value={phone} onChange={(phone) => setPhone(phone)} inputProps={{name: 'phone-number', required: true}}/>
                             <select name="services" required>
                                 <option value="" disabled selected>---Select Service*---</option>

@@ -12,6 +12,7 @@ import ProjectsSection from './components/ProjectsSection'
 import TechnologySection from './components/TechnologySection'
 import ContactSection from './components/ContactSection'
 import Loader from './components/Loader'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -37,8 +38,9 @@ function App() {
             <Introduction />
             <TechnologySection />
             <ProjectsSection />
-            <ContactSection />
             <UspSection />
+            <ContactSection />
+            <Footer />
             <WhatsApp />
           </>
         )
