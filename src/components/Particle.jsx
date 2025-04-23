@@ -55,13 +55,41 @@ export default function Particle() {
                                     },
                                     number: {
                                         density: { enable: true, area: 800 },
-                                        value: 300,
+                                        value: 250,
                                     },
                                     opacity: { value: 0.5 },
                                     shape: { type: "circle" },
                                     size: { value: { min: 1, max: 5 } },
                                 },
                                 detectRetina: true,
+                                // responsive
+                                responsive: [
+                                    {
+                                        maxWidth: 768,
+                                        options: {
+                                            particles: {
+                                                number: {
+                                                    value: 200, // Less particles on mobile
+                                                },
+                                            },
+                                            interactivity: {
+                                                events: {
+                                                    onClick: { enable: true, mode: "push" },
+                                                    onHover: { enable: true, mode: "bubble" },
+                                                },
+                                                modes: {
+                                                    push: { quantity: 4 }, // 🔥 Decrease click push quantity
+                                                    bubble: {
+                                                        distance: 120,
+                                                        duration: 1.2,
+                                                        size: 30,
+                                                        opacity: 0.6, 
+                                                    },
+                                                },
+                                            },
+                                        },
+                                    },
+                                ],
                             }}
                         />
                     )}

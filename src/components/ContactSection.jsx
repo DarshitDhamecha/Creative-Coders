@@ -8,7 +8,7 @@ const ContactSection = () => {
     const [phone, setPhone] = useState('');
 
     return (
-        <section className='main-section mx-auto md:my-28 my-5' id='contact'>
+        <section className='main-section mx-auto md:my-28 my-5 md:overflow-visible overflow-hidden rounded-xl' id='contact'>
             <div className='contact-bg w-[100%] rounded-xl relative'>
                 <div className='bg-[#0000006e] p-5 absolute lg:right-36 right-0 lg:top-[-50px] lg:w-[600px] w-[100%] rounded-xl'>
                     <h2 className='tx-white text-4xl font-semibold text-center'>Let's Connect</h2>
